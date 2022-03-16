@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: sans-serif;
+}
+
+#section1 {
+  background-image: url(img/header-shapes-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 90%;
+  border: 2px solid white;
+  border-radius: 0 0 0 50px;
+}
