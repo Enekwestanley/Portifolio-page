@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello Microverse
+# Portifolio Page
 
-This is a simple project to display "Hello Microverse".
+This is a project to build a section of the portifolio page
 
 
 ## Built With
@@ -30,12 +30,13 @@ To get a local copy up and running follow these simple example steps.
     - Creating a repo
     - Git clone of repo
     - cd into the folder
+    - creating and adding linters and other files
     - open index.html with live server
 
 ### Install
     VS code
 ### Usage
-    A project to display Hello-Microverse
+    A project to build a section of a portifolio page.
 ### Run tests
 
 ### Deployment
