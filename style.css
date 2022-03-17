@@ -175,3 +175,24 @@ border-radius: 0.5rem;
 font-size: 15px;
 font-weight: bolder;
 }
+
+.section1template {
+  display: block;
+  margin: 4rem auto auto auto;
+  width: 90%;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.img2 {
+    
+    display: block;
+    margin: auto auto 0 auto;
+    width: 90%;
+    padding-top: 4rem;
+    order: 1;
+}
+
+.Section1Text {
+    padding: 6rem 0 3rem 3rem;
+}
