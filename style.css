@@ -97,3 +97,28 @@ h1 {
   background-color: white;
   border-radius: 50px;
 } 
+
+.img1 {
+    
+  display: block;
+  margin: auto auto 0 auto;
+  width: 90%;
+  padding-top: 4rem;
+}
+
+.SectionText {
+  padding: 3rem 0 3rem 3rem;
+  }
+  
+  .list1 {
+      display: flex;
+  }
+  
+  .list2 {
+      display: flex;
+  }
+  
+  .list3 {
+      display: flex;
+  }
+  
