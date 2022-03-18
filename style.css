@@ -270,8 +270,8 @@ h3 {
 }
 
 .lang {
-  padding-left: 2rem;
   font-size: 20px;
+  font-weight: 600;
 }
 
 .language-icon {
@@ -283,8 +283,8 @@ h3 {
 }
 
 .frame-right,
-.last-icons,
-.skill-right {
+.skill-right,
+.last-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -295,6 +295,7 @@ h3 {
   padding-top: 3rem;
   padding-left: 1rem;
   font-size: 20px;
+  font-weight: 600;
 }
 
 hr {
@@ -320,6 +321,7 @@ hr {
 
 .prog {
   font-size: 15px;
+  font-weight: 400;
 }
 
 #portfolio {
