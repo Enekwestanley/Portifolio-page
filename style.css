@@ -90,8 +90,9 @@ h1 {
   background-color: #ebebff;
   border-radius: 0.5rem;
   list-style: none;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bolder;
+  color: #6070ff;
 }
 
 .list3 li {
@@ -100,8 +101,9 @@ h1 {
   background-color: #ebebff;
   border-radius: 0.5rem;
   list-style: none;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bolder;
+  color: #6070ff;
 }
 
 .let-connect a {
@@ -109,6 +111,16 @@ h1 {
   color: #7f8cff;
   font-size: 18px;
   font-weight: 600;
+}
+
+.languages li {
+  list-style: none;
+}
+
+.frame-right li,
+.last-icons li,
+.skill-right li {
+  list-style: none;
 }
 
 .icon1 ul li {
@@ -170,11 +182,12 @@ p {
 
 .btn {
   margin-top: 1rem;
-  padding: 0.5rem;
-  border: 2px solid black;
+  padding: 0.8rem;
+  border: 1px solid #6070ff;
   border-radius: 0.5rem;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bolder;
+  color: #6070ff;
 }
 
 .Section3Text {
@@ -246,11 +259,10 @@ h2 {
 .languages {
   display: flex;
   align-items: center;
-  border: 2px solid #dadbff;
-  background-color: #ebebff;
-  border-radius: 50px;
+  background-color: #f7f7f9;
+  border-radius: 15px;
   margin-top: 3rem;
-  padding: 1rem 0 1rem 0;
+  padding: 0.5rem 0;
 }
 
 h3 {
@@ -259,6 +271,7 @@ h3 {
 
 .lang {
   padding-left: 2rem;
+  font-size: 20px;
 }
 
 .language-icon {
@@ -281,11 +294,32 @@ h3 {
 .skill {
   padding-top: 3rem;
   padding-left: 1rem;
+  font-size: 20px;
 }
 
 hr {
   width: 95%;
   margin-left: 1rem;
+}
+
+.img3 {
+  padding-right: 6rem;
+}
+
+.img5 {
+  padding-right: 6rem;
+}
+
+.last-div {
+  padding: 0 2rem 0 2rem;
+}
+
+.tech {
+  padding: 0 2rem 0 1.5rem;
+}
+
+.prog {
+  font-size: 15px;
 }
 
 #portfolio {
