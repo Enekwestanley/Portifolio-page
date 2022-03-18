@@ -80,10 +80,41 @@ h1 {
   margin: 1.5rem 0 6rem 4rem;
 }
 
+.list1 li {
+  margin: 1rem 2rem 0 0;
+}
+
+.list2 li {
+  margin: 1.5rem 0.3rem 0 0;
+  border: 2px solid #dadbff;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  list-style: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.list3 li {
+  margin: 1rem 0.3rem 0 0;
+  border: 4px solid #dadbff;
+  background-color: #ebebff;
+  border-radius: 0.5rem;
+  list-style: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.let-connect a {
+  text-decoration: none;
+  color: #7f8cff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .icon1 ul li {
   margin-right: 2rem;
   font-size: 1.5rem;
-  color: #505F79;
+  color: #505f79;
 }
 
 .icon1 ul li a {
@@ -96,10 +127,9 @@ h1 {
   width: 90%;
   background-color: white;
   border-radius: 50px;
-} 
+}
 
 .img1 {
-    
   display: block;
   margin: auto auto 0 auto;
   width: 90%;
@@ -122,52 +152,29 @@ h1 {
   padding: 6rem 0 3rem 3rem;
 }
 
-.list1 li {
-  margin: 1rem 2rem 0 0;
+.special {
+  color: #7a869a;
 }
 
-.special {
-color: #7a869a;
-}
 .can {
-list-style: none;
+  list-style: none;
 }
 
 p {
-color: #344563;
-margin-top: 1rem;
-line-height: 2rem;
-font-size: 19px;
-width: 80%;
-}
-
-.list2 li {
-margin: 1.5rem 0.3rem 0 0;
-border: 2px solid #dadbff;
-background-color: #ebebff;
-border-radius: 0.5rem;
-list-style: none;
-font-size: 15px;
-font-weight: bolder;
-}
-
-.list3 li {
-margin: 1rem 0.3rem 0 0;
-border: 4px solid #dadbff;
-background-color: #ebebff;
-border-radius: 0.5rem;
-list-style: none;
-font-size: 15px;
-font-weight: bolder;
+  color: #344563;
+  margin-top: 1rem;
+  line-height: 2rem;
+  font-size: 19px;
+  width: 80%;
 }
 
 .btn {
-margin-top: 1rem;
-padding: 0.5rem;
-border: 2px solid black;
-border-radius: 0.5rem;
-font-size: 15px;
-font-weight: bolder;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 .Section3Text {
@@ -176,14 +183,13 @@ font-weight: bolder;
 
 .SectionText {
   padding: 3rem 0 3rem 3rem;
-  }
-  
- h2 {
-    color:  #172b4d;
-    font-size: 35px;
-    margin: -2rem 0 1rem 0;
 }
 
+h2 {
+  color: #172b4d;
+  font-size: 35px;
+  margin: -2rem 0 1rem 0;
+}
 
 .section1template {
   display: block;
@@ -194,16 +200,15 @@ font-weight: bolder;
 }
 
 .img2 {
-    
-    display: block;
-    margin: auto auto 0 auto;
-    width: 90%;
-    padding-top: 4rem;
-    order: 1;
+  display: block;
+  margin: auto auto 0 auto;
+  width: 90%;
+  padding-top: 4rem;
+  order: 1;
 }
 
 .Section1Text {
-    padding: 6rem 0 3rem 3rem;
+  padding: 6rem 0 3rem 3rem;
 }
 
 .sectiondiv {
@@ -215,20 +220,13 @@ font-weight: bolder;
 }
 
 .body-text {
-  padding: 6rem 0 3rem 3rem; 
+  padding: 6rem 0 3rem 3rem;
 }
 
 .b-text {
-  color: #344563;;
-  font-size: 25px;      
+  color: #344563;
+  font-size: 25px;
 }
-
-.let-connect a {
-  text-decoration: none;
-  color: #7f8cff;
-  font-size: 18px;
-  font-weight: 600;    
-}   
 
 .icon2 ul {
   margin-top: 2rem;
@@ -241,7 +239,7 @@ font-weight: bolder;
   font-size: 2rem;
 }
 
-.icon2 ul li a  {
+.icon2 ul li a {
   color: black;
 }
 
@@ -271,13 +269,16 @@ h3 {
   padding-right: 6rem;
 }
 
-.frame-right, .last-icons, .skill-right{
+.frame-right,
+.last-icons,
+.skill-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.frame, .skill {
+.frame,
+.skill {
   padding-top: 3rem;
   padding-left: 1rem;
 }
@@ -291,5 +292,5 @@ hr {
   display: grid;
   grid-template-columns: 100%;
   row-gap: 0.5rem;
- padding: 0.5rem;
+  padding: 0.5rem;
 }
