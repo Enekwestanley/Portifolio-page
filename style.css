@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgrey;
+  background-color: #e5e5e5;
   font-family: sans-serif;
 }
 
@@ -87,7 +87,7 @@ h1 {
 }
 
 .icon1 ul li a {
-  color: black;
+  color: #505f79;
 }
 
 .sectiontemplate {
@@ -103,48 +103,42 @@ h1 {
   display: block;
   margin: auto auto 0 auto;
   width: 90%;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
-.SectionText {
-  padding: 3rem 0 3rem 3rem;
-  }
-  
-  .list1 {
-      display: flex;
-}
-  
-  .list2 {
-      display: flex;
-}
-  
-  .list3 {
-      display: flex;
+.list1 {
+  display: flex;
 }
 
-  h2 {
-    color:  #172b4d;
-    font-size: 35px;
-    margin: -2rem 0 1rem 0;
+.list2 {
+  display: flex;
+}
+
+.list3 {
+  display: flex;
+}
+
+.Section2Text {
+  padding: 6rem 0 3rem 3rem;
 }
 
 .list1 li {
-    margin: 1rem 2rem 0 0;
+  margin: 1rem 2rem 0 0;
 }
 
 .special {
-  color: #7a869a;
+color: #7a869a;
 }
 .can {
-  list-style: none;
+list-style: none;
 }
 
 p {
-  color: #344563;
-  margin-top: 1rem;
-  line-height: 2rem;
-  font-size: 19px;
-  width: 80%;
+color: #344563;
+margin-top: 1rem;
+line-height: 2rem;
+font-size: 19px;
+width: 80%;
 }
 
 .list2 li {
@@ -158,23 +152,38 @@ font-weight: bolder;
 }
 
 .list3 li {
-  margin: 1rem 0.3rem 0 0;
-  border: 4px solid #dadbff;
-  background-color: #ebebff;
-  border-radius: 0.5rem;
-  list-style: none;
-  font-size: 15px;
-  font-weight: bolder;
+margin: 1rem 0.3rem 0 0;
+border: 4px solid #dadbff;
+background-color: #ebebff;
+border-radius: 0.5rem;
+list-style: none;
+font-size: 15px;
+font-weight: bolder;
 }
 
 .btn {
-  margin-top: 1rem;
+margin-top: 1rem;
 padding: 0.5rem;
 border: 2px solid black;
 border-radius: 0.5rem;
 font-size: 15px;
 font-weight: bolder;
 }
+
+.Section3Text {
+  padding: 6rem 0 3rem 3rem;
+}
+
+.SectionText {
+  padding: 3rem 0 3rem 3rem;
+  }
+  
+ h2 {
+    color:  #172b4d;
+    font-size: 35px;
+    margin: -2rem 0 1rem 0;
+}
+
 
 .section1template {
   display: block;
@@ -197,10 +206,90 @@ font-weight: bolder;
     padding: 6rem 0 3rem 3rem;
 }
 
-.Section2Text {
-  padding: 6rem 0 3rem 3rem;
+.sectiondiv {
+  background-color: white;
+  background-size: 100%;
+  border: 2px solid white;
+  border-radius: 0 50px 0 0;
+  margin-top: 4rem;
 }
 
-.Section3Text {
-  padding: 6rem 0 3rem 3rem;
+.body-text {
+  padding: 6rem 0 3rem 3rem; 
+}
+
+.b-text {
+  color: #344563;;
+  font-size: 25px;      
+}
+
+.let-connect a {
+  text-decoration: none;
+  color: #7f8cff;
+  font-size: 18px;
+  font-weight: 600;    
+}   
+
+.icon2 ul {
+  margin-top: 2rem;
+  display: flex;
+  list-style: none;
+}
+
+.icon2 ul li {
+  margin-right: 2rem;
+  font-size: 2rem;
+}
+
+.icon2 ul li a  {
+  color: black;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  border: 2px solid #dadbff;
+  background-color: #ebebff;
+  border-radius: 50px;
+  margin-top: 3rem;
+  padding: 1rem 0 1rem 0;
+}
+
+h3 {
+  padding-left: 2rem;
+}
+
+.lang {
+  padding-left: 2rem;
+}
+
+.language-icon {
+  padding-bottom: 7rem;
+}
+
+.img4 {
+  padding-right: 6rem;
+}
+
+.frame-right, .last-icons, .skill-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.frame, .skill {
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+hr {
+  width: 95%;
+  margin-left: 1rem;
+}
+
+#portfolio {
+  display: grid;
+  grid-template-columns: 100%;
+  row-gap: 0.5rem;
+ padding: 0.5rem;
 }
