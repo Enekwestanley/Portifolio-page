@@ -244,6 +244,7 @@ h2 {
   border: 2px solid white;
   border-radius: 0 50px 0 0;
   margin-top: 4rem;
+  padding-bottom: 113px;
 }
 
 .body-text {
@@ -387,6 +388,8 @@ hr {
   width: 100%;
   padding: 1rem;
   border-radius: 0.5rem;
+  border: 0;
+  margin-bottom: 20px;
 }
 
 #name {
@@ -397,9 +400,10 @@ hr {
   font-size: 25px;
   padding: 0.7rem;
   margin-top: 2rem;
-  color: blue;
+  color: #6070FF;
   border-radius: 0.5rem;
   float: left;
+  border: 0;
 }
 
 .skill-frame {
