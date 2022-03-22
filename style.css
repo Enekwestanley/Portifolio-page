@@ -179,7 +179,6 @@ p {
   margin-top: 1rem;
   line-height: 2rem;
   font-size: 19px;
-  width: 80%;
 }
 
 .btn {
@@ -200,7 +199,7 @@ p {
   background-color: blue;
 }
 
-.btn:disabled{
+.btn:disabled {
   background-color: white;
 }
 
@@ -280,8 +279,6 @@ h2 {
   padding: 1rem 0 1rem 0;
 }
 
-
-
 h3 {
   padding-left: 2rem;
 }
@@ -349,12 +346,17 @@ hr {
   padding: 0.5rem;
 }
 
+.contact-section {
+  background-color: #fff;
+  margin-top: -8px;
+}
+
 .contact-Me {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image:  url(img/footer.svg); 
+  background-image: url(img/footer.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
   background-size: contain;
@@ -365,14 +367,14 @@ hr {
 
 .last-text {
   color: white;
-  width: 90%;
-  font-size: 25px;
-  padding: 2rem 1rem 0 2rem;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
 }
 
 #contact-form {
   margin: auto;
-  width: 70%;
   padding-top: 2rem;
 }
 
@@ -380,11 +382,12 @@ hr {
   color: white;
   font-size: 40px;
   text-align: center;
-  padding-top: 4rem
+  padding-top: 4rem;
 }
 
-
-#name, #email, #message {
+#name,
+#email,
+#message {
   width: 100%;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -400,19 +403,18 @@ hr {
   font-size: 25px;
   padding: 0.7rem;
   margin-top: 2rem;
-  color: #6070FF;
+  color: #6070ff;
   border-radius: 0.5rem;
-  float: left;
   border: 0;
+  align-self: flex-start;
 }
 
 .skill-frame {
   margin-bottom: 4.5rem;
 }
 
-
 .footer-img {
-  display: flex; 
+  display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
