@@ -269,15 +269,17 @@ h2 {
 .icon2 ul li a {
   color: black;
 }
-
 .languages {
   display: flex;
   align-items: center;
-  background-color: #f7f7f9;
-  border-radius: 15px;
+  border: 2px solid #dadbff;
+  background-color: #ebebff;
+  border-radius: 50px;
   margin-top: 3rem;
-  padding: 0.5rem 0;
+  padding: 1rem 0 1rem 0;
 }
+
+
 
 h3 {
   padding-left: 2rem;
@@ -286,6 +288,7 @@ h3 {
 .lang {
   font-size: 20px;
   font-weight: 600;
+  padding-left: 2rem;
 }
 
 .language-icon {
@@ -359,14 +362,6 @@ hr {
   border-radius: 5rem 0 0 0;
 }
 
-
-.contact {
-  color: white;
-  font-size: 40px;
-  text-align: center;
-  padding-top: 4rem
-}
-
 .last-text {
   color: white;
   width: 90%;
@@ -379,6 +374,14 @@ hr {
   width: 70%;
   padding-top: 2rem;
 }
+
+.contact {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 4rem
+}
+
 
 #name, #email, #message {
   width: 100%;
@@ -403,12 +406,6 @@ hr {
   margin-bottom: 4.5rem;
 }
 
-.logo {
-  animation-name: logo;
-  animation-duration: 3s;
-  transform: rotateZ(0deg);
-  animation-fill-mode: forwards;
-}
 
 .footer-img {
   display: flex; 
