@@ -410,6 +410,18 @@ hr {
   align-self: flex-start;
 }
 
+.touch:hover {
+  background-color: #7f8cff;
+}
+
+.touch:active {
+  background-color: blue;
+}
+
+.touch:disabled {
+  background-color: white;
+}
+
 .skill-frame {
   margin-bottom: 4.5rem;
 }
