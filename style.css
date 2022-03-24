@@ -185,6 +185,11 @@ h1 {
   display: flex;
 }
 
+.big-text {
+  font-size: 40px;
+  font-weight: 700;
+}
+
 .Section2Text {
   padding: 6rem 0 3rem 3rem;
 }
@@ -201,7 +206,8 @@ p {
   color: #344563;
   margin-top: 1rem;
   line-height: 2rem;
-  font-size: 19px;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .btn {
@@ -236,7 +242,7 @@ p {
 
 h2 {
   color: #172b4d;
-  font-size: 35px;
+  font-size: 40px;
   margin: -2rem 0 1rem 0;
 }
 
@@ -275,7 +281,8 @@ h2 {
 
 .b-text {
   color: #344563;
-  font-size: 25px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .icon2 ul {
@@ -298,7 +305,7 @@ h2 {
   align-items: center;
   border: 2px solid #dadbff;
   background-color: #ebebff;
-  border-radius: 50px;
+  border-radius: 0.5rem;
   margin-top: 3rem;
   padding: 1rem 0 1rem 0;
 }
@@ -351,6 +358,14 @@ hr {
 }
 
 .img8 {
+  display: none;
+}
+
+.img9 {
+  display: none;
+}
+
+.img10 {
   display: none;
 }
 
