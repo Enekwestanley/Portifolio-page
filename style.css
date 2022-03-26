@@ -61,6 +61,18 @@ h1 {
   margin: 1rem 0 0 4rem;
   width: 70%;
   line-height: 2.5rem;
+  animation-name: content;
+  animation-duration: 4s;
+}
+
+@keyframes content {
+  0% {
+    margin-left: -200px;
+  }
+
+  100% {
+    margin-left: 4rem;
+  }
 }
 
 .connect a {
@@ -222,6 +234,7 @@ p {
 
 .btn:hover {
   background-color: lightblue;
+  transition: all 0.5s ease-out;
 }
 
 .btn:active {
