@@ -81,6 +81,22 @@ h1 {
   }
 }
 
+.logo {
+  animation-name: logo;
+  animation-duration: 3s;
+  transform: rotateZ(0deg);
+  animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+  0% {
+      transform: rotateZ(0deg);
+  }
+  100% {
+      transform: rotateZ(360deg);
+  }
+}
+
 .header-text {
   color: #344563;
   font-size: 25px;
