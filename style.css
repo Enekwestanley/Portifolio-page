@@ -63,15 +63,7 @@ h1 {
   animation-fill-mode: forwards;
 }
 
-@keyframes logo {
-  0% {
-    transform: rotateZ(0deg);
-  }
 
-  100% {
-    transform: rotateZ(360deg);
-  }
-}
 
 .footer-img {
   display: flex;
