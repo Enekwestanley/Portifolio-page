@@ -44,6 +44,10 @@ body {
   text-decoration: none;
   font-size: 25px;
   color: #6070ff;
+  animation-name: logo;
+  animation-duration: 3s;
+  transform: rotateZ(0deg);
+  animation-fill-mode: forwards;
 }
 
 .union {
@@ -53,6 +57,36 @@ body {
 h1 {
   font-size: 40px;
   margin: 5rem 0 0 4rem;
+  animation-name: header;
+  animation-duration: 5s;
+  position: relative;
+  animation-fill-mode: forwards;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@keyframes header {
+  0% {
+    top: -200px;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
+
+@keyframes logo {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateZ(360deg);
+  }
 }
 
 .header-text {
@@ -138,7 +172,7 @@ h1 {
 }
 
 .icon1 ul li {
-  margin-right: 2rem;
+  padding-right: 2rem;
   font-size: 1.5rem;
   color: #505f79;
 }
@@ -479,12 +513,6 @@ hr {
 
 .skill-frame {
   margin-bottom: 4.5rem;
-}
-
-.footer-img {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
 }
 
 @media screen and (min-width: 768px) {
