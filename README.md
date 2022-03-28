@@ -12,7 +12,7 @@ This is a project to build a section of the portifolio page
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://enekwestanley.github.io/Portifolio-page/)
 
 
 ## Getting Started
@@ -32,17 +32,12 @@ To get a local copy up and running follow these simple example steps.
     - cd into the folder
     - creating and adding linters and other files
     - open index.html with live server
+    - Deployment of the Portfolio-page
 
 ### Install
     VS code
 ### Usage
     A project to build a section of a portifolio page.
-### Run tests
-
-### Deployment
-
-
-
 ## Authors
 
 👤 **Author1**
