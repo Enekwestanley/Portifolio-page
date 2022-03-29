@@ -47,11 +47,8 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [Stanley Enekwe](https://linkedin.com/in/StanleyEnekwe)
 
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+## Contributions
+Daniel Malo: [Danie12345](https://github.com/Danie12345)
 
 ## Show your support
 
