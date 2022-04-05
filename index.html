@@ -11,20 +11,28 @@
   <body>
     <header class="nav1">
       <a class="logo"  href="#">My logo</a>
-      <div class="nav2">
-        <img class="union" src="img/Union.svg" alt="Menu button">
-          <ul class="first-list">
-            <li>
-              <a href="#Portfolio">Portfolio</a>
-            </li>
-            <li>
-              <a href="#About">About</a>
-            </li>
-            <li>
-              <a href="#Contact">Contact</a>
+      <nav class="nav2">
+        <ul class="first-list">
+          <li>
+            <a href="#Portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact-form">About</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
-      </div>
+        <div class="close-ham">
+          <img class="open-menu show" src="img/Union.svg" alt="Menu button">
+          <img class="close-menu hide" src="img/icon-X.svg" alt= "closing icon">
+        </div>  
+        <ul class="mobile-menu">
+          <li><a class="mobileLink" href="#portfolio">Portfolio</a></li>
+          <li><a class="mobileLink" href="#about">About</a></li>
+          <li><a class="mobileLink" href="#contact">Contact</a></li>
+        </ul>  
+      </nav>
     </header>
     <!--"main" container for all the sections of the card-->  
     <main id="portfolio">
@@ -230,5 +238,6 @@
         </div>
       </section>
     </main> 
+    <script src="app.js"></script>
   </body>
 </html>
