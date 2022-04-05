@@ -50,8 +50,46 @@ body {
   animation-fill-mode: forwards;
 }
 
-.union {
-  margin: 1rem 3rem 0 0;
+.close-menu {
+  display: none;
+}
+
+.close-ham {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  width: 3rem;
+  height: 1.5rem;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  background: #6070ff;
+  transform: translateY(-150%);
+  transition: transform 0.2s;
+  list-style: none;
+  padding: 6rem 2rem;
+}
+
+.mobile-menu a {
+  font-weight: 800;
+  color: white;
+  font-size: 2rem;
+  line-height: 4rem;
+}
+
+.showMenu {
+  transform: translateY(0);
 }
 
 h1 {
@@ -521,7 +559,15 @@ hr {
     list-style: none;
     padding-right: 4rem;
     font-size: 25px;
-    margin-top: 1rem;
+    margin-top: 2rem;
+  }
+
+  .close-ham {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
   }
 
   .first-list li {
@@ -532,7 +578,7 @@ hr {
     text-decoration: none;
   }
 
-  .union {
+  .open-menu {
     display: none;
   }
 
