@@ -22,7 +22,6 @@ body {
   display: none;
 }
 
-
 .nav1 {
   display: flex;
   align-items: center;
@@ -553,17 +552,6 @@ hr {
 .skill-frame {
   margin-bottom: 4.5rem;
 }
-
-.showMenu {
-  transform: translateY(0);
-}
-
-/* .close-menu { */
-  /* display: block; */
-  /* position: absolute; */
-  /* margin-top: 1rem; */
-  /* padding-right: 4rem; */
-/* } */
 
 @media screen and (min-width: 768px) {
   .first-list {

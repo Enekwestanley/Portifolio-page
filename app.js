@@ -8,10 +8,11 @@ function toggleMenu() {
       menu.classList.remove('showMenu');
       closemenu.style.display = 'none';
       openmenu.style.display = 'block';
-    } else {
+    } 
+    else {
       menu.classList.add('showMenu');
       closemenu.style.display = 'block';
-      openm.style.display = 'none';
+      openmenu.style.display = 'none';
     }
   }
   
