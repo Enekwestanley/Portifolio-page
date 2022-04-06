@@ -92,41 +92,6 @@ body {
   transform: translateY(0);
 }
 
-h1 {
-  font-size: 40px;
-  margin: 5rem 0 0 4rem;
-  animation-name: header;
-  animation-duration: 5s;
-  position: relative;
-  animation-fill-mode: forwards;
-}
-
-.footer-img {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-@keyframes header {
-  0% {
-    top: -200px;
-  }
-
-  100% {
-    top: 10px;
-  }
-}
-
-@keyframes logo {
-  0% {
-    transform: rotateZ(0deg);
-  }
-
-  100% {
-    transform: rotateZ(360deg);
-  }
-}
-
 .header-text {
   color: #344563;
   font-size: 25px;
@@ -165,7 +130,16 @@ h1 {
 }
 
 .list1 li {
-  margin: 1rem 2rem 0 0;
+  margin: 1rem 0.5rem 0 0;
+  list-style: none;
+}
+
+.dev {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #7a869a;
+  text-transform: capitalize;
 }
 
 .list2 li {
@@ -269,6 +243,141 @@ h1 {
   display: flex;
 }
 
+.modal {
+  opacity: 1;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 2rem auto;
+  padding: 20px;
+  border: 1px solid #888;
+  height: auto;
+  width: 65%;
+}
+
+.modal-title {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-img {
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+
+.toggle-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle-body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.toggle-p {
+  max-width: 100%;
+  margin: 1rem 0 1rem 0.5rem;
+}
+
+.toggle-text-top h1 {
+  margin-left: 1rem;
+}
+
+.toggle-list-top {
+  display: flex;
+}
+
+.toggle-list-bottom {
+  display: none;
+}
+
+.toggle-list-top li,
+.toggle-list-bottom li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #949eff;
+  border: 1px solid #dadbff;
+  border-radius: 0.5rem;
+  padding: 0 0.3rem;
+  margin: 1rem 0.3rem 0 0;
+  background-color: #ebebff;
+}
+
+.btn-toggle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  color: #7f8cff;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  background-color: #f7f7f9;
+  margin: 2rem 0 0 0;
+  width: 12rem;
+}
+
+.dflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-nav {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-bottom: 4rem;
+  line-height: 3rem;
+}
+
+.black {
+  color: #344563;
+  padding: 0 0 0 2.2rem;
+  font-weight: 800;
+}
+
+.gray {
+  color: #7a869a;
+  padding: 0 1rem;
+}
+
+#modalTitle {
+  padding-left: 0.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+.xp {
+  font-weight: 900;
+  font-size: larger;
+}
+
+.inter-font {
+  background-color: white;
+  color: blue;
+  margin: 2rem 0;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  font-weight: 600;
+}
+
 .big-text {
   font-size: 40px;
   font-weight: 700;
@@ -276,14 +385,6 @@ h1 {
 
 .Section2Text {
   padding: 6rem 0 3rem 3rem;
-}
-
-.special {
-  color: #7a869a;
-}
-
-.can {
-  list-style: none;
 }
 
 p {
@@ -554,6 +655,33 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+  .btn-toggle {
+    width: 8rem;
+    padding: 0;
+    height: 2rem;
+  }
+
+  .btn-modal {
+    display: flex;
+    justify-content: space-between;
+    width: 17rem;
+  }
+
+  .toggle-body {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .toggle-p {
+    max-width: 80%;
+    margin: 1rem 1rem;
+  }
+
+  .toggle-list-bottom {
+    display: block;
+    display: flex;
+  }
+
   .first-list {
     display: flex;
     list-style: none;
@@ -685,6 +813,41 @@ hr {
     padding-right: 2rem;
   }
 
+  h1 {
+    font-size: 40px;
+    margin: 5rem 0 0 4rem;
+    animation-name: header;
+    animation-duration: 5s;
+    position: relative;
+    animation-fill-mode: forwards; 
+  }
+  
+  .footer-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+    @keyframes header {
+    0% {
+      top: -200px;
+    }
+  
+    100% {
+      top: 10px;
+    }
+  } 
+  
+  @keyframes logo {
+    0% {
+      transform: rotateZ(0deg);
+    }
+  
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+   
   .last-text {
     margin: auto;
     width: 75%;
