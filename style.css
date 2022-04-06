@@ -816,7 +816,7 @@ hr {
   h1 {
     font-size: 40px;
     margin: 5rem 0 0 4rem;
-    animation-name: header;
+    /* animation-name: header; */
     animation-duration: 5s;
     position: relative;
     animation-fill-mode: forwards; 
