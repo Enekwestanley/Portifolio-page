@@ -129,6 +129,10 @@ body {
   margin: 1.5rem 0 6rem 4rem;
 }
 
+li {
+  list-style: none;
+}
+
 .list1 li {
   margin: 1rem 0.5rem 0 0;
   list-style: none;
@@ -172,11 +176,6 @@ body {
   font-size: 18px;
   font-weight: 600;
 }
-
-li {
-  list-style: none;
-}
-
 
 .languages li {
   list-style: none;
