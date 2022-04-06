@@ -177,10 +177,28 @@ body {
   list-style: none;
 }
 
+li {
+  list-style: none;
+}
+
 .frame-right li,
 .last-icons li,
 .skill-right li {
   list-style: none;
+}
+
+.toggle-list-top li,
+.toggle-list-bottom li {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #949eff;
+  border: 1px solid #dadbff;
+  border-radius: 0.5rem;
+  padding: 0 0.3rem;
+  margin: 1rem 0.3rem 0 0;
+  background-color: #ebebff;
 }
 
 .icon1 ul li {
@@ -304,20 +322,6 @@ body {
   display: none;
 }
 
-.toggle-list-top li,
-.toggle-list-bottom li {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 1rem;
-  color: #949eff;
-  border: 1px solid #dadbff;
-  border-radius: 0.5rem;
-  padding: 0 0.3rem;
-  margin: 1rem 0.3rem 0 0;
-  background-color: #ebebff;
-}
-
 .btn-toggle {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -347,7 +351,7 @@ body {
 
 .black {
   color: #344563;
-  padding: 0 0 0 2.2rem;
+  padding: 0 0 0 0.2rem;
   font-weight: 800;
 }
 
@@ -358,10 +362,6 @@ body {
 
 #modalTitle {
   padding-left: 0.5rem;
-}
-
-li {
-  list-style: none;
 }
 
 .xp {
@@ -698,6 +698,14 @@ hr {
     display: none;
   }
 
+  #modalTitle {
+    margin-left: 0.8rem;
+  }
+
+  .modal-nav {
+    margin-left: 00.8rem;
+  }
+
   .first-list li {
     padding-left: 2rem;
   }
@@ -816,38 +824,39 @@ hr {
   h1 {
     font-size: 40px;
     margin: 5rem 0 0 4rem;
+
     /* animation-name: header; */
     animation-duration: 5s;
     position: relative;
-    animation-fill-mode: forwards; 
+    animation-fill-mode: forwards;
   }
-  
+
   .footer-img {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
   }
-  
-    @keyframes header {
+
+  @keyframes header {
     0% {
       top: -200px;
     }
-  
+
     100% {
       top: 10px;
     }
-  } 
-  
+  }
+
   @keyframes logo {
     0% {
       transform: rotateZ(0deg);
     }
-  
+
     100% {
       transform: rotateZ(360deg);
     }
   }
-   
+
   .last-text {
     margin: auto;
     width: 75%;
