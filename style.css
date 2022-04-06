@@ -173,11 +173,12 @@ body {
   font-weight: 600;
 }
 
-.languages li {
+li {
   list-style: none;
 }
 
-li {
+
+.languages li {
   list-style: none;
 }
 
