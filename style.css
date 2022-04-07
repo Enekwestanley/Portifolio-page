@@ -291,7 +291,7 @@ li {
 .modal-img {
   width: 95%;
   height: auto;
-  margin: auto;
+  margin-top: -3.5rem;
 }
 
 .toggle-header {
@@ -316,6 +316,7 @@ li {
 
 .toggle-list-top {
   display: flex;
+  margin-bottom: 4rem;
 }
 
 .toggle-list-bottom {
@@ -366,7 +367,8 @@ li {
 
 .xp {
   font-weight: 900;
-  font-size: larger;
+  font-size: xx-large;
+  cursor: pointer;
 }
 
 .inter-font {
@@ -656,8 +658,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   .btn-toggle {
-    width: 8rem;
-    padding: 0;
+    margin-left: 0.7rem;
     height: 2rem;
   }
 
@@ -667,9 +668,19 @@ hr {
     width: 17rem;
   }
 
+  .modal-img {
+    width: 100%;
+    height: auto;
+    margin-top: -3rem;
+  }
+
   .toggle-body {
     display: flex;
     flex-direction: row;
+  }
+
+  .toggle-list-top {
+    margin-bottom: 1rem;
   }
 
   .toggle-p {
@@ -699,11 +710,11 @@ hr {
   }
 
   #modalTitle {
-    margin-left: 0.8rem;
+    margin: 0.5rem 0 0 -0.3rem;
   }
 
   .modal-nav {
-    margin-left: 00.8rem;
+    margin-left: 0.1rem;
   }
 
   .first-list li {
