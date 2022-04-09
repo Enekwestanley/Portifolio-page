@@ -114,7 +114,6 @@ function popModal(modal) {
 const modal = document.getElementById('myModal');
 const mBtn1 = document.getElementById('myBtn1');
 const mBtn2 = document.getElementById('myBtn2');
-const mBtn3 = document.getElementById('myBtn3');
 const mBtn4 = document.getElementById('myBtn4');
 const xp = document.getElementsByClassName('xp')[0];
 
@@ -130,7 +129,6 @@ mBtn2.onclick = function seeP2() {
 
 mBtn3.onclick = function seeP3() {
   popModal('modal3');
-  modal.style.display = 'block';
 };
 
 mBtn4.onclick = function seeP4() {
